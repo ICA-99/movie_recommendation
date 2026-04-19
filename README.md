@@ -16,11 +16,16 @@ It suggests similar movies based on user selection and displays their posters us
 
 ## 📸 App Preview
 
-### 🔍 Home Interface
-![Home](assets/home.png)
-
-### 🎯 Recommendations Output
-![Recommendation](assets/pic1.png)
+<table>
+  <tr>
+    <td><img src="assets/home.png" width="300"/></td>
+    <td><img src="assets/avatar.png" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="assets/spiderman.png" width="300"/></td>
+    <td><img src="assets/avenger.png" width="300"/></td>
+  </tr>
+</table>
 
 ---
 
