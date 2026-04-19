@@ -1,5 +1,5 @@
 myvenv/
 __pycache__/
 .env
-data/*
+data/*.csv
 *.pyc
