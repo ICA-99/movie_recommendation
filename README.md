@@ -152,7 +152,10 @@ http://localhost:8501
 
 ## 👨‍💻 Author
 
-Anjan Pal
+**Anjan Pal**
+
+- 🔗 LinkedIn: https://www.linkedin.com/in/anjan-pal-ab5a5a247
+- 💼 Open to opportunities in Machine Learning / Python Development
 
 ---
 
