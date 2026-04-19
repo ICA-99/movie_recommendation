@@ -5,6 +5,25 @@ It suggests similar movies based on user selection and displays their posters us
 
 ---
 
+## 🌐 Live Demo
+
+🚀 Try the app here:  
+👉 https://movie-recommendation-o038.onrender.com  
+
+> ⚠️ Note: The app may take a few seconds to load initially due to free hosting cold start.
+
+---
+
+## 📸 App Preview
+
+### 🔍 Home Interface
+![Home](assets/home.png)
+
+### 🎯 Recommendations Output
+![Recommendation](assets/pic1.png)
+
+---
+
 ## 🚀 Features
 
 * Recommend top 5 similar movies
