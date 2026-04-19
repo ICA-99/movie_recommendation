@@ -47,7 +47,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 titles = pickle.load(open(os.path.join(BASE_DIR, "../models/movie_titles.pkl"), "rb"))
 
 # 🔹 Title
-st.markdown('<h1 class="title">🎬 Movie Recommender (by Anjan)</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title">🎬 Movie Recommendation System</h1>', unsafe_allow_html=True)
 
 # 🔹 Dropdown
 selected = st.selectbox("Select Movie", titles)
