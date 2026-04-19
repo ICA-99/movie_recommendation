@@ -1,8 +1,11 @@
+import os
 import pickle
 from sklearn.metrics.pairwise import cosine_similarity
 
-titles = pickle.load(open("../models/movie_titles.pkl", "rb"))
-vectors = pickle.load(open("../models/vectors.pkl", "rb"))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+titles = pickle.load(open(os.path.join(BASE_DIR, "../models/movie_titles.pkl"), "rb"))
+vectors = pickle.load(open(os.path.join(BASE_DIR, "../models/vectors.pkl"), "rb"))
 
 def get_recommendations(movie_name):
     idx = titles.index(movie_name)

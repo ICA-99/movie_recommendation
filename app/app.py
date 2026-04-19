@@ -1,5 +1,6 @@
-import streamlit as st
+import os
 import pickle
+import streamlit as st
 from recommender import get_recommendations
 from poster import fetch_posters
 
@@ -42,7 +43,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 🔹 Load titles
-titles = pickle.load(open("../models/movie_titles.pkl", "rb"))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+titles = pickle.load(open(os.path.join(BASE_DIR, "../models/movie_titles.pkl"), "rb"))
 
 # 🔹 Title
 st.markdown('<h1 class="title">🎬 Movie Recommender (by Anjan)</h1>', unsafe_allow_html=True)
