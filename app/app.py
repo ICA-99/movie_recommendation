@@ -4,7 +4,7 @@ from recommender import get_recommendations
 from poster import fetch_posters
 
 # 🔥 Page config
-st.set_page_config(page_title="Movie Recommender", layout="wide")
+st.set_page_config(page_title="Movie Recommendation System", layout="wide")
 
 # 🔥 CSS (same style)
 st.markdown("""
