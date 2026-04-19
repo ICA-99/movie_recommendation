@@ -18,12 +18,12 @@ It suggests similar movies based on user selection and displays their posters us
 
 <table>
   <tr>
-    <td><img src="assets/home.png" width="300"/></td>
-    <td><img src="assets/avatar.png" width="300"/></td>
+    <td><img src="assets/home.png" width="400" height="300"/></td>
+    <td><img src="assets/avatar.png" width="400" height="300"/></td>
   </tr>
   <tr>
-    <td><img src="assets/spiderman.png" width="300"/></td>
-    <td><img src="assets/avenger.png" width="300"/></td>
+    <td><img src="assets/spiderman.png" width="400" height="300"/></td>
+    <td><img src="assets/avenger.png" width="400" height="300"/></td>
   </tr>
 </table>
 
