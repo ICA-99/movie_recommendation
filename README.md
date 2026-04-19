@@ -56,7 +56,7 @@ movie-recommender/
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/movie-recommender.git
+git clone https://github.com/ICA-99/movie_recommendation.git
 cd movie-recommender
 ```
 
@@ -152,7 +152,7 @@ http://localhost:8501
 
 ## 👨‍💻 Author
 
-Your Name
+Anjan Pal
 
 ---
 
