@@ -5,3 +5,4 @@ numpy
 requests
 python-dotenv
 nltk
+import yt_dlp
