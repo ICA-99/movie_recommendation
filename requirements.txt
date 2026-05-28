@@ -5,4 +5,4 @@ numpy
 requests
 python-dotenv
 nltk
-yt-dlp
+yt-dlp>=2025.5.22

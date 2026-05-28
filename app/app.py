@@ -71,7 +71,9 @@ def get_trailer(movie_name):
         ydl_opts = {
             "quiet": True,
             "skip_download": True,
-            "no_warnings": True
+            "no_warnings": True,
+            "extract_flat": True,
+            "force_generic_extractor": False
         }
 
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
